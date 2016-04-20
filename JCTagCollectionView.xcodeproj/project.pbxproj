@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC3ADD31CC77D0A00F47989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC3ADD21CC77D0A00F47989 /* main.m */; };
+		EBC3ADD61CC77D0A00F47989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC3ADD51CC77D0A00F47989 /* AppDelegate.m */; };
+		EBC3ADD91CC77D0A00F47989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC3ADD81CC77D0A00F47989 /* ViewController.m */; };
+		EBC3ADDC1CC77D0A00F47989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC3ADDA1CC77D0A00F47989 /* Main.storyboard */; };
+		EBC3ADDE1CC77D0A00F47989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC3ADDD1CC77D0A00F47989 /* Assets.xcassets */; };
+		EBC3ADE11CC77D0A00F47989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC3ADDF1CC77D0A00F47989 /* LaunchScreen.storyboard */; };
+		EBE66C051CC77D4C003849B1 /* JCCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE66C001CC77D4C003849B1 /* JCCollectionViewFlowLayout.m */; };
+		EBE66C061CC77D4C003849B1 /* JCTagCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE66C021CC77D4C003849B1 /* JCTagCollectionView.m */; };
+		EBE66C071CC77D4C003849B1 /* JCTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE66C041CC77D4C003849B1 /* JCTagCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBC3ADCE1CC77D0A00F47989 /* JCTagCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCTagCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC3ADD21CC77D0A00F47989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBC3ADD41CC77D0A00F47989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBC3ADD51CC77D0A00F47989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBC3ADD71CC77D0A00F47989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBC3ADD81CC77D0A00F47989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBC3ADDB1CC77D0A00F47989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC3ADDD1CC77D0A00F47989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC3ADE01CC77D0A00F47989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBC3ADE21CC77D0A00F47989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE66BFF1CC77D4C003849B1 /* JCCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		EBE66C001CC77D4C003849B1 /* JCCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		EBE66C011CC77D4C003849B1 /* JCTagCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTagCollectionView.h; sourceTree = "<group>"; };
+		EBE66C021CC77D4C003849B1 /* JCTagCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTagCollectionView.m; sourceTree = "<group>"; };
+		EBE66C031CC77D4C003849B1 /* JCTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTagCollectionViewCell.h; sourceTree = "<group>"; };
+		EBE66C041CC77D4C003849B1 /* JCTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTagCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC3ADCB1CC77D0A00F47989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC3ADC51CC77D0A00F47989 = {
+			isa = PBXGroup;
+			children = (
+				EBC3ADD01CC77D0A00F47989 /* JCTagCollectionView */,
+				EBC3ADCF1CC77D0A00F47989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC3ADCF1CC77D0A00F47989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC3ADCE1CC77D0A00F47989 /* JCTagCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC3ADD01CC77D0A00F47989 /* JCTagCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EBE66BFE1CC77D4C003849B1 /* JCTagCollectionView */,
+				EBC3ADD41CC77D0A00F47989 /* AppDelegate.h */,
+				EBC3ADD51CC77D0A00F47989 /* AppDelegate.m */,
+				EBC3ADD71CC77D0A00F47989 /* ViewController.h */,
+				EBC3ADD81CC77D0A00F47989 /* ViewController.m */,
+				EBC3ADDA1CC77D0A00F47989 /* Main.storyboard */,
+				EBC3ADDD1CC77D0A00F47989 /* Assets.xcassets */,
+				EBC3ADDF1CC77D0A00F47989 /* LaunchScreen.storyboard */,
+				EBC3ADE21CC77D0A00F47989 /* Info.plist */,
+				EBC3ADD11CC77D0A00F47989 /* Supporting Files */,
+			);
+			path = JCTagCollectionView;
+			sourceTree = "<group>";
+		};
+		EBC3ADD11CC77D0A00F47989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC3ADD21CC77D0A00F47989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE66BFE1CC77D4C003849B1 /* JCTagCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EBE66BFF1CC77D4C003849B1 /* JCCollectionViewFlowLayout.h */,
+				EBE66C001CC77D4C003849B1 /* JCCollectionViewFlowLayout.m */,
+				EBE66C011CC77D4C003849B1 /* JCTagCollectionView.h */,
+				EBE66C021CC77D4C003849B1 /* JCTagCollectionView.m */,
+				EBE66C031CC77D4C003849B1 /* JCTagCollectionViewCell.h */,
+				EBE66C041CC77D4C003849B1 /* JCTagCollectionViewCell.m */,
+			);
+			path = JCTagCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC3ADCD1CC77D0A00F47989 /* JCTagCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC3ADE51CC77D0A00F47989 /* Build configuration list for PBXNativeTarget "JCTagCollectionView" */;
+			buildPhases = (
+				EBC3ADCA1CC77D0A00F47989 /* Sources */,
+				EBC3ADCB1CC77D0A00F47989 /* Frameworks */,
+				EBC3ADCC1CC77D0A00F47989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCTagCollectionView;
+			productName = JCTagCollectionView;
+			productReference = EBC3ADCE1CC77D0A00F47989 /* JCTagCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC3ADC61CC77D0A00F47989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jam;
+				TargetAttributes = {
+					EBC3ADCD1CC77D0A00F47989 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = EBC3ADC91CC77D0A00F47989 /* Build configuration list for PBXProject "JCTagCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC3ADC51CC77D0A00F47989;
+			productRefGroup = EBC3ADCF1CC77D0A00F47989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC3ADCD1CC77D0A00F47989 /* JCTagCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC3ADCC1CC77D0A00F47989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC3ADE11CC77D0A00F47989 /* LaunchScreen.storyboard in Resources */,
+				EBC3ADDE1CC77D0A00F47989 /* Assets.xcassets in Resources */,
+				EBC3ADDC1CC77D0A00F47989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC3ADCA1CC77D0A00F47989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE66C071CC77D4C003849B1 /* JCTagCollectionViewCell.m in Sources */,
+				EBC3ADD91CC77D0A00F47989 /* ViewController.m in Sources */,
+				EBE66C061CC77D4C003849B1 /* JCTagCollectionView.m in Sources */,
+				EBE66C051CC77D4C003849B1 /* JCCollectionViewFlowLayout.m in Sources */,
+				EBC3ADD61CC77D0A00F47989 /* AppDelegate.m in Sources */,
+				EBC3ADD31CC77D0A00F47989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBC3ADDA1CC77D0A00F47989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC3ADDB1CC77D0A00F47989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC3ADDF1CC77D0A00F47989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC3ADE01CC77D0A00F47989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC3ADE31CC77D0A00F47989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBC3ADE41CC77D0A00F47989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC3ADE61CC77D0A00F47989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCTagCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapelgroup.JCTagCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC3ADE71CC77D0A00F47989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JCTagCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lapelgroup.JCTagCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC3ADC91CC77D0A00F47989 /* Build configuration list for PBXProject "JCTagCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC3ADE31CC77D0A00F47989 /* Debug */,
+				EBC3ADE41CC77D0A00F47989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC3ADE51CC77D0A00F47989 /* Build configuration list for PBXNativeTarget "JCTagCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC3ADE61CC77D0A00F47989 /* Debug */,
+				EBC3ADE71CC77D0A00F47989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC3ADC61CC77D0A00F47989 /* Project object */;
+}

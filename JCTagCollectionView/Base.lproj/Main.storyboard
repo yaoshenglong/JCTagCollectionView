@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9gq-ut-lRe" customClass="JCTagCollectionView">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9gq-ut-lRe" secondAttribute="trailing" id="1wS-f2-NLe"/>
+                            <constraint firstItem="9gq-ut-lRe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IVO-RU-GHu"/>
+                            <constraint firstItem="9gq-ut-lRe" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Peh-Z8-YEy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9gq-ut-lRe" secondAttribute="bottom" id="SjM-nV-Vcx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="9gq-ut-lRe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1wS-f2-NLe"/>
+                                <exclude reference="IVO-RU-GHu"/>
+                                <exclude reference="Peh-Z8-YEy"/>
+                                <exclude reference="SjM-nV-Vcx"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="9gq-ut-lRe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1wS-f2-NLe"/>
+                                <include reference="IVO-RU-GHu"/>
+                                <include reference="Peh-Z8-YEy"/>
+                                <include reference="SjM-nV-Vcx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tagCollectionView" destination="9gq-ut-lRe" id="wAg-Fr-Lzg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="429"/>
+        </scene>
+    </scenes>
+</document>
