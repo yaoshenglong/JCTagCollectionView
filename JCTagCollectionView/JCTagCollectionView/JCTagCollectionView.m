@@ -82,9 +82,6 @@ static NSString * const reuseIdentifier = @"tagCollectionViewCell";
     JCTagCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     cell.backgroundColor = self.tagBackGroundColor;
     cell.layer.borderColor = self.tagBorderColor.CGColor;
-    CGFloat scale = [[UIScreen mainScreen] scale];
-    CGFloat width = scale > 0.0 ? 1.0 / scale : 1.0;
-    cell.layer.borderWidth = width;
     cell.layer.cornerRadius = self.tagCornerRadius;
     
     if ([_selectTags containsObject:self.tags[indexPath.row]]) {

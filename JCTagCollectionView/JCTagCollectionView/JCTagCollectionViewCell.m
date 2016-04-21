@@ -34,7 +34,9 @@
 
 - (void)setup {
     self.layer.masksToBounds = YES;
-    self.layer.borderWidth = 1.0f;
+    CGFloat scale = [[UIScreen mainScreen] scale];
+    CGFloat width = scale > 0.0 ? 1.0 / scale : 1.0;
+    self.layer.borderWidth = width;
     
     _titleLabel = [[UILabel alloc] init];
     _titleLabel.textAlignment = NSTextAlignmentCenter;
