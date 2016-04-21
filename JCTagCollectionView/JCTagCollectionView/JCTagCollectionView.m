@@ -102,11 +102,11 @@ static NSString * const reuseIdentifier = @"tagCollectionViewCell";
 
 #pragma mark UICollectionDelegate
 
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    return self.canSelect;
+}
+
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    if (!self.canSelect) {
-        return;
-    }
     
     JCTagCollectionViewCell *selectCell = (JCTagCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     
