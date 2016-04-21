@@ -45,12 +45,11 @@
     
     self.minimumLineSpacing = 10.0f;
     self.minimumInteritemSpacing = 10.0f;
-    self.itemSize = CGSizeMake(100.0f, 26.0f);
+    self.itemSize = CGSizeMake(100.0f, 22.0f);
     self.scrollDirection = UICollectionViewScrollDirectionVertical;
     self.sectionInset = UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 10.0f);
     
     self.itemAttributes = [NSMutableArray array];
-
 }
 
 - (void)prepareLayout {

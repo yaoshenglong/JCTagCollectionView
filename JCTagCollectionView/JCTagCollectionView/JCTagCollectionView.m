@@ -44,7 +44,17 @@ static NSString * const reuseIdentifier = @"tagCollectionViewCell";
 
 - (void)setup {
     
+    self.tagBackGroundColor = [UIColor clearColor];
+    self.tagBorderColor = [UIColor lightGrayColor];
+    self.tagSelectBorderColor = [UIColor colorWithRed:21/255.0 green:169/255.0 blue:188/255.0 alpha:1];
+    self.tagColor = [UIColor colorWithWhite:125.0/255.0 alpha:1.0f];
+    self.tagSelectColor = [UIColor colorWithRed:21/255.0 green:169/255.0 blue:188/255.0 alpha:1];
+    self.tagCornerRadius = 10.0f;
+    
+    self.canSelect = YES;
+    
     self.tags = [NSMutableArray array];
+    _selectTags = [NSMutableArray array];
     
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:[[JCCollectionViewFlowLayout alloc] init]];
     [self.collectionView setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -70,14 +80,46 @@ static NSString * const reuseIdentifier = @"tagCollectionViewCell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     JCTagCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    cell.layer.borderColor = [UIColor lightGrayColor].CGColor;
-    cell.layer.cornerRadius = 5.0f;
+    cell.backgroundColor = self.tagBackGroundColor;
+    cell.layer.borderColor = self.tagBorderColor.CGColor;
+    CGFloat scale = [[UIScreen mainScreen] scale];
+    CGFloat width = scale > 0.0 ? 1.0 / scale : 1.0;
+    cell.layer.borderWidth = width;
+    cell.layer.cornerRadius = self.tagCornerRadius;
+    
+    if ([_selectTags containsObject:self.tags[indexPath.row]]) {
+        cell.layer.borderColor = self.tagSelectBorderColor.CGColor;
+        [cell.titleLabel setTextColor:self.tagSelectColor];
+    } else {
+        cell.layer.borderColor = self.tagBorderColor.CGColor;
+        [cell.titleLabel setTextColor:self.tagColor];
+    }
+    
     [cell.titleLabel setText:self.tags[indexPath.row]];
     
     return cell;
 }
 
 #pragma mark UICollectionDelegate
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (!self.canSelect) {
+        return;
+    }
+    
+    JCTagCollectionViewCell *selectCell = (JCTagCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+    
+    if ([_selectTags containsObject:self.tags[indexPath.row]]) {
+        selectCell.layer.borderColor = self.tagBorderColor.CGColor;
+        [selectCell.titleLabel setTextColor:self.tagColor];
+        [_selectTags removeObject:self.tags[indexPath.row]];
+    } else {
+        selectCell.layer.borderColor = self.tagSelectBorderColor.CGColor;
+        [selectCell.titleLabel setTextColor:self.tagSelectColor];
+        [_selectTags addObject:self.tags[indexPath.row]];
+    }
+}
 
 #pragma mark UICollectionViewDelegateFlowLayout
 
